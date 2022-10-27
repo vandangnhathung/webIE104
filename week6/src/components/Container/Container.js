@@ -1,8 +1,13 @@
 import React from 'react';
+import SideContent1 from '../SideContent/SideContent1';
+import SideContent2 from '../SideContent/SideContent2';
+import SideContent3 from '../SideContent/SideContent3';
+import SideContent4 from '../SideContent/SideContent4';
 import Box from './Box';
 
 const Container = () => {
     return (
+        <div className='grid' style={{marginBottom: "10px"}}>
         <div style={{display: "flex", flexDirection: "column", gap: "25px"}}>
             <Box title="Triết lý giáo dục của Trường Đại học Công nghệ Thông tin" author="@Tác giả" date="Ngày 20/10/2021" img="https://source.unsplash.com/featured/900x601"
            >
@@ -49,6 +54,14 @@ const Container = () => {
             <p>- Có hoài bão, đóng góp tích cực cho sự phát triển của cộng đồng và xã hội.</p>
             </div>
            </Box>
+        </div>
+        <div style={{marginLeft: "auto"}}>
+
+        <SideContent1></SideContent1>
+        <SideContent2></SideContent2>
+        <SideContent3></SideContent3>
+        <SideContent4></SideContent4>
+        </div>
         </div>
     );
 };

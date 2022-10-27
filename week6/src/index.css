@@ -50,3 +50,8 @@ h6 {
   overflow-wrap: break-word;
 }
 
+
+.grid {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
