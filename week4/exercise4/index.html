@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      style="
+        max-width: 350px;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        margin: auto;
+        border-radius: 10px;
+      "
+    >
+      <h1
+        style="
+          color: #fff;
+          background-color: aqua;
+          text-transform: uppercase;
+          padding: 20px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        "
+      >
+        Tính chỉ số BMI
+      </h1>
+      <div
+        style="
+          padding: 20px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+        "
+      >
+        <label>
+          Nhập cân nặng?
+          <input id="weight" type="text" placeholder="Your weight" />
+        </label>
+        <label for="">
+          Nhập chiều cao?
+          <input id="height" type="text" placeholder="Your height" />
+        </label>
+        <label for="">
+          Chọn loại tuổi?
+          <select id="typeAge" name="customer">
+            <option value="type" disabled selected>Già, lớn tuổi</option>
+            <option value="middleAge">trung niên</option>
+            <option value="oldAge">trung niên, già lớn tuổi</option>
+          </select>
+        </label>
+        <button
+          onclick="send()"
+          type="button"
+          style="
+            padding: 5px 30px;
+            background-color: aqua;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+          "
+        >
+          Tính BMI
+        </button>
+      </div>
+      <div class="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+.form {
+  padding: 30px;
+  background-color: #f2f3f5;
+  box-shadow: rgba(0, 0, 0, 0.4) 3px 5px 4px;
+  border-radius: 10px;
+}
+
+.form__div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+select {
+  padding: 10px;
+  color: #6f6f6f;
+  border: 1px solid #ccc;
+}
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 10px;
+  background-color: #0c96f1;
+  border: 1px solid #dfe0e2;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}

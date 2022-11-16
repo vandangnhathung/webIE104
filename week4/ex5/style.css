@@ -1,0 +1,47 @@
+.c
+
+.wrap {
+    width: 250px;
+    height: 80px;
+    background-color: #272125;
+    padding: 30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.heading {
+    color: white;
+    position: absolute;
+    z-index: 1;
+    font-size: 16px;
+    padding: 5px 0px 10px 32px ;
+}
+.form-login  {
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.form-login input {
+    color: white;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 25px;
+    border: none;
+    background-color: #524d51;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.submit-btn button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #e74c3c;
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+}

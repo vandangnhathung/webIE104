@@ -1,0 +1,48 @@
+body {
+    margin: 30px;
+}
+.heading{
+    text-transform: uppercase;
+    color: blue;
+    font-size: 16px;
+    padding: 15px;
+}
+.red-line {
+    border: solid 0.5px red ;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 15px;
+}
+.information {
+    flex-grow: 0;
+}
+.info-heading{
+    font-size: 16px;
+    color: black;
+}
+.contact-us {
+    flex-grow: 1;
+}
+.contact-heading {
+    color: purple;
+    font-size: 16px;
+}
+.contact-us input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+#noi-dung{
+    padding-bottom: 100px;
+}
+.submit {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(5, 167, 113);
+    cursor: pointer;
+}

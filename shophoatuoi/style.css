@@ -1,0 +1,29 @@
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+
+.content {
+  list-style: none;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+@font-face {
+  font-family: weddingFont;
+  src: url(./fonts/UTM\ Wedding\ K_T.ttf);
+}
+.title {
+  font-family: weddingFont;
+  font-size: 60px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+
+  text-shadow: 6px 6px 6px rgb(229, 75, 126);
+  -webkit-text-stroke: 0.00000000000000000000000000000001px rgba(252, 57, 118);
+  color: white;
+}
